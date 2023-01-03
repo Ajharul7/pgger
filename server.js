@@ -58,7 +58,7 @@ app.use(
       next();
     }
   });
-  app.use(express.static(path.join(_dirname, "./client/build)));
+  app.use(express.static(path.join(_dirname, "./client/build")));
 //   let url = path.join(__dirname, "./client/build/index.html");
 //   app.get("/signup", (req, res) => {
 //     res.sendFile(url);
