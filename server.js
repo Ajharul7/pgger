@@ -49,27 +49,7 @@ app.use(
     saveUninitialized: false,
   })
 );
-
-// if (process.env.NODE_ENV === "production") {
-  app.use((req, res, next) => {
-    if (req.header("x-forwarded-proto") !== "https") {
-      res.redirect(`https://${req.header("host")}${req.url}`);
-    } else {
-      next();
-    }
-  });
   app.use(express.static(path.join(_dirname, "./client/build")));
-//   let url = path.join(__dirname, "./client/build/index.html");
-//   app.get("/signup", (req, res) => {
-//     res.sendFile(url);
-//   });
-//   app.get("/pg/*", (req, res) => {
-//     res.sendFile(url);
-//   });
-//   app.get("/aboutus", (req, res) => {
-//     res.sendFile(url);
-//   });
-// }
   app.get("*", function (req,res) {
     res.sendFile(
     path.join(_dirname, "./client/build/index.html"),
