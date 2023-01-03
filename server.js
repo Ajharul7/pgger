@@ -58,18 +58,27 @@ if (process.env.NODE_ENV === "production") {
       next();
     }
   });
-  app.use(express.static("./client/build"));
-  let url = path.join(__dirname, "./client/build", "index.html");
-  app.get("/signup", (req, res) => {
-    res.sendFile(url);
+  app.use(express.static(path.join(_dirname, "./client/build)));
+//   let url = path.join(__dirname, "./client/build/index.html");
+//   app.get("/signup", (req, res) => {
+//     res.sendFile(url);
+//   });
+//   app.get("/pg/*", (req, res) => {
+//     res.sendFile(url);
+//   });
+//   app.get("/aboutus", (req, res) => {
+//     res.sendFile(url);
+//   });
+// }
+  app.get("*", function (req,res) {
+    res.sendFile(
+    path.join(_dirname, "./client/build/index.html"),
+      function(err){
+        res.status(500).send(err);
+      }
+    );
   });
-  app.get("/pg/*", (req, res) => {
-    res.sendFile(url);
-  });
-  app.get("/aboutus", (req, res) => {
-    res.sendFile(url);
-  });
-}
+  
 app.use(cors(corsOptions));
 app.use(express.json());
 
