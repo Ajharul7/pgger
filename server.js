@@ -49,10 +49,10 @@ app.use(
     saveUninitialized: false,
   })
 );
-  app.use(express.static(path.join(_dirname, "./client/build")));
+  app.use(express.static(path.join(_dirname, "client/build")));
   app.get("*", function (req,res) {
     res.sendFile(
-    path.join(_dirname, "./client/build/index.html"),
+    path.join(_dirname, "client/build/index.html"),
       function(err){
         res.status(500).send(err);
       }
