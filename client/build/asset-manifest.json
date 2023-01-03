@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.136c6a90.css",
+    "main.js": "/static/js/main.525d3461.js",
+    "static/js/787.31072766.chunk.js": "/static/js/787.31072766.chunk.js",
+    "static/media/img46.png": "/static/media/img46.2ea8403e32046aa93874.png",
+    "static/media/about1.png": "/static/media/about1.596b8bfd8a12fb8208db.png",
+    "static/media/searchforlocation.png": "/static/media/searchforlocation.0eb5887dee5737344d94.png",
+    "static/media/YaroCut-Black.woff": "/static/media/YaroCut-Black.166186f5831283a72527.woff",
+    "static/media/img47.jpg": "/static/media/img47.49f1b40ee1b3953318df.jpg",
+    "static/media/join1.svg": "/static/media/join1.e4dc2563b40d280cf0d8d06416fb8ef0.svg",
+    "static/media/signup.svg": "/static/media/signup.a18e427df467f6374cff35e7816312c0.svg",
+    "static/media/join.svg": "/static/media/join.ac3bb1381b42989f59ddecd544e0f506.svg",
+    "index.html": "/index.html",
+    "static/media/wave.svg": "/static/media/wave.7c09d2a467ca130cf94defd659cc4d03.svg",
+    "main.136c6a90.css.map": "/static/css/main.136c6a90.css.map",
+    "main.525d3461.js.map": "/static/js/main.525d3461.js.map",
+    "787.31072766.chunk.js.map": "/static/js/787.31072766.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.136c6a90.css",
+    "static/js/main.525d3461.js"
+  ]
+}

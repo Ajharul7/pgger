@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@763&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+@font-face {
+  font-family: "MyFont";
+  src: local("MyFont"), url(../font/YaroCut-Black.woff) format("woff");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+#free-solo-2-demo {
+  font-family: Poppins;
+  color: black;
+  border-radius: 50px;
+}
+.search {
+  color: black;
+  width: 600px;
+  background-color: white;
+  border-radius: 8px;
+  /* margin-left: 32.5%; */
+  margin-bottom: 13%;
+  font-family: Poppins;
+}
+.search-1 {
+  color: inherit;
+}
+
+.poster {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 65%;
+  object-fit: cover;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+.web-name {
+  font-size: 70px;
+  margin-top: 7%;
+  /* margin-left: 41%; */
+  margin-bottom: 0;
+  color: whitesmoke;
+  color: #ff4433;
+  /* font-family: Montserrat; */
+  font-family: "MyFont";
+  text-align: center;
+}
+.web-diaglog {
+  font-size: 33px;
+  margin-top: 8px;
+  color: white;
+  font-family: Poppins;
+  background-color: #1c1c1c;
+  padding: 4px;
+  width: max-content;
+}
+.pgs-display {
+  float: left;
+  margin-right: 43px;
+  margin-top: 0%;
+  margin-left: 9%;
+  border: solid;
+  border-color: #fff;
+  color: black;
+  padding: 8px 8px 8px 8px;
+  font-family: Poppins;
+  margin-bottom: 3%;
+  box-shadow: rgba(0.1, 0.1, 0.1, 0.1) 5px 5px 14px 5px;
+  transition: all 0.3s ease-in-out;
+}
+.username-css-home {
+  color: #1c1c1c;
+  font-family: Poppins;
+  padding-top: 15px;
+  font-size: 21px;
+  font-weight: 100;
+  float: right;
+  display: none;
+}
+.pgs-display:hover {
+  /* box-shadow: 3px 3px 30px -6px rgba(0, 0, 0, 0.75);
+  border-radius: 3%; */
+  box-shadow: rgba(0, 0, 0, 0.13) 7px 7px 17px 7px;
+  transform: translate3d(0px, 1.8px, 0px);
+}
+.welcome-text {
+  font-family: Poppins;
+  font-size: 28px;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.img-pg {
+  height: 280px;
+  width: 350px;
+  border-radius: 5%;
+}
+.pg-title {
+  color: "#1C1C1C";
+  margin-bottom: 2px;
+  margin-left: 4.5px;
+}
+.pg-location {
+  color: #727272;
+  font-size: 14px;
+  float: left;
+  margin-top: 5px;
+}
+.price-monthly {
+  float: right;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.searchforlocation {
+  margin-top: 0.8%;
+  height: 25%;
+  width: 20%;
+  opacity: 0.1;
+}
+.searchfortext {
+  color: #f1f1f1;
+  margin-bottom: 7%;
+  margin-top: 0%;
+  font-family: Poppins;
+}
+.starme {
+  float: right;
+  font-size: 14px;
+  background-color: #3ab757;
+  height: 35px;
+  width: 50px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 3px 3px 20px -6px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 2px;
+}
+.location-for-home {
+  float: left;
+  margin-top: 6.5px;
+}
+.arrow-button-div-1 {
+  float: right;
+  padding-top: 27px;
+  min-width: 0px;
+}
+.MuiAutocomplete-option {
+  border-bottom: 1px solid rgba(134, 129, 129, 0.2);
+  background-color: #fff;
+  font-family: Poppins;
+}
+@media only screen and (max-width: 1750px) {
+  .pgs-display {
+    float: left;
+    margin-right: 43px;
+    margin-top: 0%;
+    margin-left: 7%;
+    border: solid;
+    border-color: #fff;
+    color: black;
+    padding: 8px 8px 8px 8px;
+    font-family: Poppins;
+    margin-bottom: 3%;
+    box-shadow: rgba(0.1, 0.1, 0.1, 0.1) 5px 5px 14px 5px;
+    transition: all 0.3s ease-in-out;
+  }
+}
+@media only screen and (max-width: 1650px) {
+  .pgs-display {
+    float: left;
+    margin-right: 43px;
+    margin-top: 0%;
+    margin-left: 5%;
+    border: solid;
+    border-color: #fff;
+    color: black;
+    padding: 8px 8px 8px 8px;
+    font-family: Poppins;
+    margin-bottom: 3%;
+    box-shadow: rgba(0.1, 0.1, 0.1, 0.1) 5px 5px 14px 5px;
+    transition: all 0.3s ease-in-out;
+  }
+}
+@media only screen and (max-width: 1464px) {
+  .pgs-display {
+    float: left;
+    margin-right: 43px;
+    margin-top: 0%;
+    margin-left: 4%;
+    border: solid;
+    border-color: #fff;
+    color: black;
+    padding: 8px 8px 8px 8px;
+    font-family: Poppins;
+    margin-bottom: 3%;
+    box-shadow: rgba(0.1, 0.1, 0.1, 0.1) 5px 5px 14px 5px;
+    transition: all 0.3s ease-in-out;
+  }
+}
+@media only screen and (max-width: 1414px) {
+  .pgs-display {
+    float: left;
+    margin-right: 43px;
+    margin-top: 0%;
+    margin-left: 3%;
+    border: solid;
+    border-color: #fff;
+    color: black;
+    padding: 8px 8px 8px 8px;
+    font-family: Poppins;
+    margin-bottom: 3%;
+    box-shadow: rgba(0.1, 0.1, 0.1, 0.1) 5px 5px 14px 5px;
+    transition: all 0.3s ease-in-out;
+  }
+}
+@media only screen and (max-width: 1368px) {
+  .pgs-display {
+    float: left;
+    margin-right: 43px;
+    margin-top: 0%;
+    margin-left: 2%;
+    border: solid;
+    border-color: #fff;
+    color: black;
+    padding: 8px 8px 8px 8px;
+    font-family: Poppins;
+    margin-bottom: 3%;
+    box-shadow: rgba(0.1, 0.1, 0.1, 0.1) 5px 5px 14px 5px;
+    transition: all 0.3s ease-in-out;
+  }
+}
+@media only screen and (max-width: 1324px) {
+  .pgs-display {
+    float: left;
+    margin-right: 43px;
+    margin-top: 0%;
+    margin-left: 1%;
+    border: solid;
+    border-color: #fff;
+    color: black;
+    padding: 8px 8px 8px 8px;
+    font-family: Poppins;
+    margin-bottom: 3%;
+    box-shadow: rgba(0.1, 0.1, 0.1, 0.1) 5px 5px 14px 5px;
+    transition: all 0.3s ease-in-out;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .poster {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    filter: blur(0px);
+    -webkit-filter: blur(1px);
+  }
+  .search {
+    color: black;
+    width: 80%;
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 30%;
+    box-shadow: 3px 3px 30px -1px rgba(0, 0, 0, 0.75);
+  }
+  .welcome-text {
+    visibility: hidden;
+  }
+  .web-name {
+    font-size: 40px;
+    margin-top: 6vh;
+    margin-left: 0%;
+    margin-bottom: 0;
+    color: #ff4433;
+    /* font-family: Montserrat; */
+    font-family: "MyFont";
+    text-align: center;
+  }
+  .web-diaglog {
+    font-size: 13px;
+    margin-top: 8px;
+    color: white;
+    font-family: Poppins;
+    background-color: #1c1c1c;
+    padding: 4px;
+    width: max-content;
+  }
+  #free-solo-2-demo {
+    font-family: Poppins;
+    color: black;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 1%;
+  }
+  .username-css-home {
+    color: #1c1c1c;
+    font-family: Poppins;
+    padding-top: 6px;
+    padding-left: 2px;
+    padding-right: 1px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #1e1e11;
+    float: right;
+    display: unset;
+  }
+  .arrow-button-div-1 {
+    padding-top: 19px;
+  }
+  .searchforlocation {
+    margin-top: 0;
+    height: 45%;
+    width: 40%;
+    opacity: 0.1;
+    margin-top: 30%;
+  }
+  .searchfortext {
+    font-size: 20px;
+  }
+  .search-1 {
+    color: inherit;
+  }
+  .MuiAutocomplete-option {
+    font-size: 13px;
+    border-bottom: 1px solid #c5c5c5;
+    background-color: #fff;
+    font-family: Poppins;
+  }
+  .Mui-focused {
+    outline: #3ab757;
+  }
+  .pgs-display {
+    float: none;
+    margin-right: 0;
+    margin-left: 0;
+    border: none;
+    border-color: #fff;
+    color: black;
+    padding: 8px 8px 8px 8px;
+    font-family: Poppins;
+    margin-top: 10%;
+    width: 94%;
+    box-shadow: rgba(0.1, 0.1, 0.1, 0.1) 5px 5px 14px 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  .pgs-display:hover {
+    /* box-shadow: 3px 3px 30px -6px rgba(0, 0, 0, 0.75);
+  border-radius: 3%; */
+    box-shadow: rgba(0, 0, 0, 0.13) 7px 7px 17px 7px;
+    transform: translate3d(0px, 1.8px, 0px);
+  }
+  .img-pg {
+    height: 25vh;
+    width: 89vw;
+    border-radius: 10px;
+  }
+  .pg-title {
+    color: "#1C1C1C";
+    margin-bottom: 2px;
+    margin-left: 4.5px;
+    font-size: 16px;
+  }
+  .starme {
+    float: right;
+    font-size: 12px;
+    background-color: #3ab757;
+    height: 30px;
+    width: 45px;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 3px 3px 20px -6px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    padding-top: 2.5px;
+    padding-left: 3px;
+  }
+  .pg-location {
+    font-size: 13px;
+    margin-top: 0;
+  }
+  .price-monthly {
+    font-size: 13px;
+    margin-top: 0;
+  }
+  .location-for-home {
+    float: left;
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .web-diaglog {
+    font-size: 9px;
+    margin-top: 8px;
+    color: white;
+    font-family: Poppins;
+    background-color: #1c1c1c;
+    padding: 4px;
+    width: max-content;
+  }
+}

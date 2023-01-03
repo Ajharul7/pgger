@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@763&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+.web-title {
+  color: #1c1c1c;
+  font-family: Montserrat;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 15px;
+  margin-top: 1%;
+  float: left;
+  font-size: 34px;
+  margin-top: 1.8%;
+}
+.pgs-name {
+  font-family: Poppins;
+  margin-left: 20%;
+  color: #1c1c1c;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+.pgs-location {
+  color: #585858;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 1px;
+  margin-left: 20%;
+}
+.city {
+  color: #888888;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 20%;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.about-button {
+  color: #000000;
+  border: 0px;
+  background-color: #fff;
+  font-family: Poppins;
+  font-size: 19px;
+  margin-left: 1%;
+  height: 2.6em;
+}
+.about-button1 {
+  color: #3ab757;
+  border: 0px;
+  background-color: #fff;
+  font-family: Poppins;
+  font-size: 19px;
+  margin-left: 1%;
+  border-bottom: 2px solid #3ab757;
+  height: 2.6em;
+}
+
+.features-button {
+  color: #000000;
+  border: 0px;
+  background-color: #fff;
+  font-family: Poppins;
+  font-size: 19px;
+  margin-left: 18.7%;
+  height: 2.6em;
+}
+.features-button1 {
+  color: #3ab757;
+  border: 0px;
+  background-color: #fff;
+  font-family: Poppins;
+  font-size: 19px;
+  margin-left: 18.7%;
+  border-bottom: 2px solid #3ab757;
+  height: 2.6em;
+}
+.reviews-button {
+  color: #000000;
+  border: 0px;
+  background-color: #fff;
+  font-family: Poppins;
+  font-size: 19px;
+  margin-left: 1%;
+  height: 2.6em;
+}
+.reviews-button1 {
+  color: #3ab757;
+  border: 0px;
+  background-color: #fff;
+  font-family: Poppins;
+  font-size: 19px;
+  margin-left: 1%;
+  border-bottom: 2px solid #3ab757;
+  height: 2.6em;
+}
+.feenfood-button {
+  color: #000000;
+  border: 0px;
+  background-color: #fff;
+  font-family: Poppins;
+  font-size: 19px;
+  margin-left: 1%;
+  height: 2.6em;
+}
+.feenfood-button1 {
+  color: #3ab757;
+  border: 0px;
+  background-color: #fff;
+  font-family: Poppins;
+  font-size: 19px;
+  margin-left: 1%;
+  border-bottom: 2px solid #3ab757;
+  height: 2.6em;
+}
+.aaa {
+  margin-top: 0%;
+}
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  height: 35em;
+  width: 100%;
+}
+
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+.slider1 {
+  width: 63%;
+  margin-left: 18.5%;
+  margin-bottom: 25px;
+}
+.web-title-res {
+  width: 61.3%;
+  margin-left: 18.8%;
+}
+.username-css {
+  color: #1c1c1c;
+  font-family: Poppins;
+  padding-top: 15px;
+  font-size: 21px;
+  font-weight: 100;
+  float: right;
+}
+.arrow-button-div {
+  float: right;
+  padding-top: 27px;
+  min-width: 0px;
+}
+.pgstar {
+  float: right;
+  margin-right: 20.5%;
+  font-family: Poppins;
+  background-color: #3ab757;
+  font-size: 19px;
+  height: 50px;
+  width: 70px;
+  text-align: center;
+  padding-top: 11px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px -6px rgba(0, 0, 0, 0.75);
+}
+.line-after-button {
+  margin-top: 0px;
+  width: 63%;
+  opacity: 0.3;
+  margin-left: 18.5%;
+  border-bottom: 0.5px solid #1c1c1c;
+}
+.feature-and-others {
+  margin-top: 27px;
+}
+.for-feature-page-h4 {
+  color: #1c1c1c;
+  margin-left: 18%;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+}
+.dialog-box-h4 {
+  color: #1ede6d;
+  font-family: Poppins;
+  margin-top: 2vw;
+}
+.dialog-box-price {
+  font-family: Poppins;
+  margin-top: 6px;
+  font-size: 11px;
+  color: red;
+  margin-right: 14px;
+}
+.dialog-box-price-1 {
+  font-family: Poppins;
+  margin-top: 6px;
+  font-size: 11px;
+  color: red;
+}
+.top-hr {
+  width: 99%;
+  margin-bottom: 20px;
+  background-color: grey;
+  height: 0.3px;
+  margin-left: 7px;
+  opacity: 0.3;
+}
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+  .each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-size: cover; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 20em;
+    width: 100%;
+    padding-left: 40%;
+    /* background-attachment: fixed; */
+  }
+  .slider1 {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 25px;
+  }
+  .web-title-res {
+    margin-left: 0%;
+    margin-top: 0px;
+    width: 100%;
+  }
+  .web-title {
+    color: #1c1c1c;
+    font-family: Montserrat;
+    margin-left: 0.5em;
+    margin-right: 0%;
+    margin-bottom: 10px;
+    padding-top: 0.2em;
+    float: left;
+    font-size: 25px;
+    margin-top: 1.8%;
+  }
+  .username-css {
+    color: #1c1c1c;
+    font-family: Poppins;
+    padding-top: 6px;
+    padding-left: 0px;
+    font-size: 17px;
+    font-weight: 100;
+    float: right;
+  }
+  .arrow-button-div {
+    padding-top: 19px;
+  }
+  .pgs-name {
+    font-family: Poppins;
+    margin-left: 0%;
+    color: #1c1c1c;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 3.5vw;
+    margin-bottom: 10px;
+  }
+  .pgs-location {
+    color: #585858;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 1px;
+    margin-left: 0%;
+    padding-left: 3.5vw;
+  }
+  .city {
+    color: #888888;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 0%;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-left: 3.5vw;
+  }
+  .pgstar {
+    float: right;
+    margin-right: 3.5vw;
+    margin-top: 0;
+    font-family: Poppins;
+    background-color: #3ab757;
+    font-size: 13px;
+    height: 39px;
+    width: 50px;
+    text-align: center;
+    padding-top: 5.5px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px -6px rgba(0, 0, 0, 0.75);
+  }
+  .MuiButton-startIcon.MuiButton-iconSizeMedium.css-1d6wzja-MuiButton-startIcon {
+    margin-right: 2px;
+  }
+  .css-6xugel {
+    margin-right: 0%;
+  }
+  .features-button {
+    color: #000000;
+    border: 0px;
+    background-color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    margin-left: 0vw;
+    height: 2.6em;
+  }
+  .features-button1 {
+    color: #3ab757;
+    border: 0px;
+    background-color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    margin-left: 0vw;
+    border-bottom: 2px solid #3ab757;
+    height: 2.6em;
+  }
+  .about-button {
+    color: #000000;
+    border: 0px;
+    background-color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    margin-left: 1.5%;
+    height: 2.6em;
+  }
+  .about-button1 {
+    color: #3ab757;
+    border: 0px;
+    background-color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    margin-left: 1.5%;
+    border-bottom: 2px solid #3ab757;
+    height: 2.6em;
+  }
+  .reviews-button {
+    color: #000000;
+    border: 0px;
+    background-color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    margin-left: 1.5%;
+    height: 2.6em;
+  }
+  .reviews-button1 {
+    color: #3ab757;
+    border: 0px;
+    background-color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    margin-left: 1.5%;
+    border-bottom: 2px solid #3ab757;
+    height: 2.6em;
+  }
+  .feenfood-button {
+    color: #000000;
+    border: 0px;
+    background-color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    margin-left: 1.5%;
+    height: 2.6em;
+  }
+  .feenfood-button1 {
+    color: #3ab757;
+    border: 0px;
+    background-color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    margin-left: 1.5%;
+    border-bottom: 2px solid #3ab757;
+    height: 2.6em;
+  }
+  .line-after-button {
+    margin-top: 0px;
+    width: 100%;
+    opacity: 0.3;
+    margin-left: 0%;
+    border-bottom: 0.5px solid #1c1c1c;
+  }
+  .feature-and-others {
+    margin-top: 27px;
+    text-align: center;
+  }
+  .for-feature-page-h4 {
+    color: #1c1c1c;
+    margin-left: 0;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+  }
+  .dialog-box-h4 {
+    color: #1ede6d;
+    font-family: Poppins;
+    font-size: 14px;
+    margin-top: 0%;
+    text-align: center;
+  }
+  .MuiPaper-root {
+    background-color: #fff;
+  }
+  .MuiDialog-paper {
+    padding: 20px 20px 20px 20px;
+  }
+  .dialog-box-price {
+    font-family: Poppins;
+    margin-top: 6px;
+    font-size: 9px;
+    color: red;
+    margin-right: 0px;
+  }
+  .dialog-box-price-1 {
+    font-family: Poppins;
+    margin-top: 6px;
+    font-size: 9px;
+    color: red;
+  }
+  .res-close {
+    display: flex;
+    justify-content: right;
+  }
+  .top-hr {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: grey;
+    height: 0.3px;
+    margin-left: 0px;
+    opacity: 0.3;
+  }
+}

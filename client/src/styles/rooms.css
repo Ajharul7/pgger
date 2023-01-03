@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@763&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+.main-box1 {
+  color: #26366d;
+  background-color: white;
+  border: 1px solid #eee; /* JUST TO LOOK COOL */
+  box-shadow: rgba(0.1, 0.1, 0.1, 0.1) 2px 3px 5px;
+  transition: all 0.3s ease-in-out;
+  margin: 1.5%;
+  padding-left: 10%;
+  padding-top: 2%;
+  font-family: Poppins;
+}
+.main-box1:hover {
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 15px 43px;
+  transform: translate3d(0px, -1px, 0px);
+}
+.main-box2 {
+  float: right;
+  background-color: #e0e7ed;
+  margin-right: 10%;
+  margin-top: 9%;
+  width: 23.4%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  border-radius: 15px;
+  box-shadow: rgba(0.1, 0.1, 0.1, 0.1) 2px 3px 5px;
+  transition: all 0.3s ease-in-out;
+}
+.main-box2:hover {
+  box-shadow: rgba(0, 0, 0, 0.13) 0px 10px 30px;
+  transform: translate3d(0px, -1px, 0px);
+}
+.main-box3 {
+  float: right;
+  background-color: #e0e7ed;
+  margin-right: 10%;
+  margin-top: 9%;
+  width: 23.4%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  border-radius: 15px;
+  box-shadow: rgba(0.1, 0.1, 0.1, 0.1) 2px 3px 5px;
+  transition: all 0.3s ease-in-out;
+  display: none;
+}
+.main-box3:hover {
+  box-shadow: rgba(0, 0, 0, 0.13) 0px 10px 30px;
+  transform: translate3d(0px, -1px, 0px);
+}
+
+.title-pgname {
+  font-weight: 100;
+  color: gray;
+}
+.total-amount {
+  float: right;
+  margin-top: 0;
+  color: #1f2b53;
+}
+.total-amount1 {
+  float: right;
+  margin-top: 12px;
+  color: #1f2b53;
+}
+.coupon-box {
+  float: right;
+  padding: 5px;
+  margin-top: 0px;
+  width: 50%;
+  color: #1f2b53;
+  border: 1px solid #afafaf;
+  background-color: white;
+  font-family: Poppins;
+}
+.coupon-box:focus {
+  outline: none;
+  border: 1px solid #1161eb;
+}
+.website-name1 {
+  font-family: Montserrat;
+  color: #1161eb;
+  margin-bottom: 3%;
+}
+.forpayment {
+  font-weight: 600;
+  font-size: 17px;
+}
+.textforpayment {
+  width: 53%;
+  padding: 16px;
+  border: 1px solid #d3d3d3;
+  margin-bottom: 2%;
+  margin-top: 0.5%;
+  border-radius: 7px;
+  font-size: medium;
+  font-family: Poppins;
+}
+.textforpayment:focus {
+  outline: none;
+}
+.emailforpayment {
+  width: 53%;
+  border: 1px solid #d3d3d3;
+  padding: 16px;
+  margin-bottom: 2%;
+  margin-top: 0.5%;
+  border-radius: 7px;
+  font-size: medium;
+  font-family: Poppins;
+}
+.emailforpayment:focus {
+  outline: none;
+}
+.paynow-button {
+  width: 53%;
+  padding: 18px;
+  font-family: Poppins;
+  font-size: large;
+  font-weight: 600;
+  color: white;
+  background-color: #1161eb;
+  border-radius: 7px;
+  border: none;
+  margin-bottom: 3%;
+}
+.paynow-button:disabled {
+  width: 53%;
+  padding: 18px;
+  font-family: Poppins;
+  font-size: large;
+  font-weight: 600;
+  color: white;
+  background-color: gray;
+  border-radius: 7px;
+  border: none;
+  margin-bottom: 3%;
+}
+.paynow-button:hover {
+  cursor: pointer;
+}
+
+/* responsive  */
+@media only screen and (max-width: 600px) {
+  .main-box1 {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .main-box2 {
+    float: none;
+    width: 100%;
+    padding: 15px;
+    display: none;
+  }
+  .main-box3 {
+    float: none;
+    width: 100%;
+    padding: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .title-pgname {
+    font-weight: 100;
+    font-size: 14px;
+    color: gray;
+  }
+  .total-amount {
+    font-size: 14px;
+    float: right;
+    margin-top: 0;
+    color: #1f2b53;
+  }
+  .total-amount1 {
+    font-size: 14px;
+    float: right;
+    margin-top: 12px;
+    color: #1f2b53;
+  }
+  .summary {
+    font-size: 17px;
+  }
+  .website-name1 {
+    font-size: 23px;
+    margin-bottom: 6%;
+  }
+  .forpayment {
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .textforpayment {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d3d3d3;
+    margin-bottom: 4%;
+    margin-top: 1%;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Poppins;
+  }
+  .emailforpayment {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    padding: 8px;
+    margin-bottom: 4%;
+    margin-top: 1%;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: Poppins;
+  }
+  .paynow-button {
+    width: 100%;
+    padding: 12.5px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    background-color: #1161eb;
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 6%;
+    margin-top: 3%;
+  }
+  .paynow-button:disabled {
+    width: 100%;
+    padding: 12.5px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    background-color: gray;
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 6%;
+    margin-top: 3%;
+  }
+}

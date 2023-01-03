@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "image": "https://serving.photos.photobox.com/967951788f673f6a02737acb00d815e0ac0975301520944ed0428e1ded3fa0740ab626ed.jpg",
+    "image1": "https://images.adsttc.com/media/images/5014/01c8/28ba/0d3b/4500/0b8e/slideshow/stringio.jpg?1414576511",
+    "image2": "https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "backupimg": "https://i.postimg.cc/3wqyMbJF/photobackup.png",
+    "title": "Royal Roys PG",
+    "price": 335,
+    "location": "Ambirapatty, Silchar",
+    "f1": "Simple Machine Independent or Portable",
+    "f2": "Machine Independent or Portable",
+    "f3": "Mid-level programming language",
+    "singleroomfee": "8000",
+    "doubleroomfee": "6000",
+    "threepersonroomfee": "3000"
+  },
+  {
+    "id": 2,
+    "image": "https://images.adsttc.com/media/images/5014/01c8/28ba/0d3b/4500/0b8e/slideshow/stringio.jpg?1414576511",
+    "title": "A PG",
+    "price": 45000,
+    "location": "Ambirapatty, Silchar",
+    "f1": "Yo this 1 feature of Pg2",
+    "f2": "Yo this 2 feature of Pg2",
+    "f3": "Yo this 3 feature of Pg2",
+    "singleroomfee": "6000",
+    "doubleroomfee": "5000",
+    "threepersonroomfee": "4000"
+  },
+  {
+    "id": 3,
+    "image": "https://images.adsttc.com/media/images/5014/01cd/28ba/0d3b/4500/0b8f/slideshow/stringio.jpg?1414576515",
+    "title": "B PG",
+    "price": 11200,
+    "location": "Ambirapatty, Silchar",
+    "singleroomfee": "10000",
+    "doubleroomfee": "6000",
+    "threepersonroomfee": "4000"
+  },
+  {
+    "id": 4,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps5_b2.jpg",
+    "title": "C PG",
+    "price": 200,
+    "location": "Ambirapatty, Silchar",
+    "singleroomfee": "5000",
+    "doubleroomfee": "6000",
+    "threepersonroomfee": "4000"
+  },
+  {
+    "id": 5,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps5_b2.jpg",
+    "title": "D PG",
+    "price": 11200,
+    "location": "Ambirapatty, Silchar",
+    "singleroomfee": "11000",
+    "doubleroomfee": "5000",
+    "threepersonroomfee": "5000"
+  },
+  {
+    "id": 6,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps5_b2.jpg",
+    "title": "E PG",
+    "price": 11200,
+    "location": "Ambirapatty, Silchar"
+  },
+  {
+    "id": 7,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps5_b2.jpg",
+    "title": "F PG",
+    "price": 11200,
+    "location": "Ambirapatty, Silchar"
+  },
+  {
+    "id": 8,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps5_b2.jpg",
+    "title": "G PG",
+    "price": 11200,
+    "location": "Ambirapatty, Silchar"
+  },
+  {
+    "id": 9,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps5_b2.jpg",
+    "title": "H PG",
+    "price": 11200,
+    "location": "Link Road, Silchar"
+  },
+  {
+    "id": 10,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps5_b2.jpg",
+    "title": "I PG",
+    "price": 11200,
+    "location": "Link Road, Silchar"
+  },
+  {
+    "id": 11,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps5_b2.jpg",
+    "title": "J PG",
+    "price": 11200,
+    "location": "Link Road, Silchar"
+  },
+  {
+    "id": 12,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps5_b2.jpg",
+    "title": "K PG",
+    "price": 11200,
+    "location": "Link Road, Silchar"
+  },
+  {
+    "id": 13,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps5_b2.jpg",
+    "title": "L PG",
+    "price": 11200,
+    "location": "Kabuganj, Silchar"
+  },
+  {
+    "id": 14,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps5_b2.jpg",
+    "title": "M PG",
+    "price": 11200,
+    "location": "Kabuganj, Silchar"
+  },
+  {
+    "id": 15,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps5_b2.jpg",
+    "title": "N PG",
+    "price": 11200,
+    "location": "Kabuganj, Silchar"
+  },
+  {
+    "id": 16,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps5_b2.jpg",
+    "title": "O PG",
+    "price": 11200,
+    "location": "Kabuganj, Silchar"
+  }
+]

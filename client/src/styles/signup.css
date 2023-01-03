@@ -1,0 +1,25 @@
+.wave {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.svgg2 {
+  height: 500px;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+@media only screen and (max-width: 600px) {
+  .svgg2 {
+    display: none;
+  }
+  .wave {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}

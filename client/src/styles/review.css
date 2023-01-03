@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@763&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+.warning-card {
+  border-radius: 9px;
+  color: black;
+  float: right;
+  margin-right: 19.5%;
+  margin-top: 1%;
+  padding: 0px;
+  width: 19.2%;
+  padding-left: 22px;
+  padding-right: 10px;
+  font-family: Poppins;
+  box-shadow: 3px 3px 18px -6px rgba(0, 0, 0, 0.75);
+  position: sticky;
+  top: 18px;
+}
+.disclaimer {
+  margin-bottom: 0%;
+  color: #ff2400;
+}
+.disclaimer-text {
+  margin-top: 3.5%;
+  font-weight: 500;
+}
+.main-div-box {
+  color: #1c1c1c;
+  margin-left: 19.5%;
+  margin-right: 40%;
+  margin-bottom: 5%;
+  font-family: Poppins;
+  font-weight: 400;
+  border-right: 0.1px solid rgba(134, 129, 129, 0.2);
+}
+.text-for-review-1 {
+  margin-bottom: 7px;
+  font-family: Poppins;
+  font-weight: 800;
+  color: #3ab757;
+  text-align: center;
+  margin-top: 7px;
+}
+.text-for-review-2 {
+  margin-bottom: 7px;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-top: 7px;
+  text-align: center;
+}
+.h5-for-review-box {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.review-main-div {
+  font-family: "Poppins";
+  font-weight: "100";
+}
+.p-username {
+  padding-top: 0.55%;
+  margin-left: 7.2%;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: rgb(54, 54, 54);
+  font-size: 15.5px;
+}
+.p-postedon {
+  font-size: 12px;
+  font-weight: 100;
+  margin-left: 7.2%;
+  color: #686868;
+  margin-top: 0;
+}
+.p-comment {
+  margin-left: 6.9%;
+  margin-right: 7.3%;
+  color: rgb(54, 54, 54);
+  font-weight: 100;
+  font-size: 15.5px;
+}
+.p-star {
+  float: right;
+  margin-right: 7%;
+  margin-top: 1%;
+  background-color: #3ab757;
+  color: white;
+  font-weight: 600;
+  width: 45px;
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 12px;
+  padding-top: 3px;
+  font-family: Poppins;
+}
+@media only screen and (max-width: 600px) {
+  .warning-card {
+    border-radius: 9px;
+    color: black;
+    float: right;
+    margin-right: 19.5%;
+    margin-top: 1%;
+    padding: 0px;
+    width: 19.2%;
+    padding-left: 22px;
+    padding-right: 10px;
+    font-family: Poppins;
+    box-shadow: 3px 3px 18px -6px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    top: 18px;
+    display: none;
+  }
+  .main-div-box {
+    color: #1c1c1c;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    font-family: Poppins;
+    font-weight: 400;
+    border-right: none;
+  }
+  .text-for-review-1 {
+    margin-bottom: 7px;
+    font-family: Poppins;
+    font-weight: 600;
+    color: #3ab757;
+    font-size: 15px;
+  }
+  .text-for-review-2 {
+    margin-bottom: 7px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 7px;
+    text-align: center;
+  }
+  .review-main-div {
+    font-family: "Poppins";
+    font-weight: "100";
+    text-align: left;
+  }
+  .p-username {
+    padding-top: 0.55%;
+    margin-left: 11vw;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: rgb(54, 54, 54);
+    font-size: 13px;
+  }
+  .p-postedon {
+    font-size: 11px;
+    font-weight: 100;
+    margin-left: 11vw;
+    color: #686868;
+    margin-top: 0;
+  }
+  .p-comment {
+    margin-left: 11vw;
+    margin-right: 7.3%;
+    color: rgb(54, 54, 54);
+    font-weight: 100;
+    font-size: 13px;
+  }
+  .p-star {
+    float: right;
+    margin-right: 4vw;
+    margin-top: 1%;
+    background-color: #3ab757;
+    color: white;
+    font-weight: 600;
+    width: 35px;
+    height: 25px;
+    border-radius: 6px;
+    padding-left: 0px;
+    padding-top: 4px;
+    font-family: Poppins;
+    font-size: 11px;
+    text-align: center;
+  }
+}
