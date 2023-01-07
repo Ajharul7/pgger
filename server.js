@@ -50,13 +50,15 @@ app.use(
   })
 );
   app.use(express.static(path.join(__dirname, "./client/build")));
-  app.get("*", function (req,res) {
-    res.sendFile(
-    path.join(__dirname, "./client/build", "index.html"),
-      function(err){
-        res.status(500).send(err);
-      }
-    );
+  let url = path.join(__dirname, "./client/build", "index.html");
+  app.get("/signup", (req, res) => {
+    res.sendFile(url);
+  });
+  app.get("/pg/*", (req, res) => {
+    res.sendFile(url);
+  });
+  app.get("/aboutus", (req, res) => {
+    res.sendFile(url);
   });
   
 app.use(cors(corsOptions));
