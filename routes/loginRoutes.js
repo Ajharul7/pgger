@@ -180,7 +180,7 @@ router.post("/paynow", async function (req, res) {
         mid: PaytmConfig.PaytmConfig.mid,
         websiteName: PaytmConfig.PaytmConfig.website,
         orderId: orderId,
-        callbackUrl: "https://pgger.herokuapp.com/api/callback",
+        callbackUrl: "https://famous-lime-ring.cyclic.app/api/callback",
         txnAmount: {
           value: data.amount,
           currency: "INR",
